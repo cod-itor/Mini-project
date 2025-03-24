@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Sigmar&display=swap');
 @import "tailwindcss";
-
 @theme {
     --font-family: "Plus Jakarta Sans", sans-serif; 
     
@@ -39,7 +38,7 @@
   }
   .button-primary{
     @apply
-    bg-green-400 hover:bg-black
+    bg-[#82C113] hover:bg-black
     px-15 py-2 mb-1 rounded-md text-white font-medium tracking-wider transition
 
   }
