@@ -3,7 +3,6 @@
 @theme {
     --font-family: "Plus Jakarta Sans", sans-serif; 
     
-
     }
   }
   @theme {
@@ -38,7 +37,7 @@
   }
   .button-primary{
     @apply
-    bg-[#82C113] hover:bg-black
+    bg-[#82C113] hover:bg-black hover:cursor-pointer
     px-15 py-2 mb-1 rounded-md text-white font-medium tracking-wider transition
 
   }
