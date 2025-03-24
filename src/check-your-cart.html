@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/output.css" />
+  </head>
+  <body>
+    <header class="bg-black text-white">
+      <nav class="flex justify-between items-center w-[92%]">
+        <div>
+          <img
+            class="w-56 h-10.4 ml-10"
+            src="/src/urban-ascent-logo.PNG"
+            alt="urban-ascent-logo"
+          />
+        </div>
+        <div class=" ">
+          <ul class="flex items-center gap-[4vw] font-medium">
+            <li>
+              <a class="nav-link" href="/src/home.html">HOME</a>
+            </li>
+            <li>
+              <a class="nav-link" href="/src/product.html">PRODUCTS</a>
+            </li>
+            <li>
+              <a class="nav-link" href="/src/about me.html">ABOUT ME</a>
+            </li>
+            <li>
+              <a class="nav-link" href="/src/contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <a href="/src/check-your-cart.html"><button class="button-nav">CHECK YOUR CART</button></a>
+        </div>
+      </nav>
+    </header>
+    <br><br>
+    <div class="w-screen h-screen bg-black flex justify-center">
+      <div class="max-w-md rounded-2xl my-20 bg-black opacity-90">
+        <!-- <div class="flex justify-center">
+                <h1 class="text-2xl text-zinc-600 font-bold">Sign up</h1>
+
+            </div>  -->
+        <div class="flex-col justify-center">
+          <form>
+            <div class="mb-6 ">
+              <label class="text-white font-bold">Username</label>
+              <input
+                type="text"
+                class="bg-white rounded-xl w-full px-2 py-2"
+                placeholder="Username"
+                required
+                autofocus
+              />
+            </div>
+            <div class="mb-6">
+              <label class="text-white font-bold">Email</label>
+              <input
+                type="text"
+                class="bg-white rounded-xl w-full px-2 py-2"
+                placeholder="your@gmail.com"
+                required
+                autofocus
+              />
+            </div>
+            <div class="mb-6">
+              <label class="text-white font-bold">Phone number </label>
+              <input
+                type="text"
+                class="bg-white rounded-xl w-full px-2 py-2 placeholder-green-50"
+                placeholder="012-559-997"
+                required
+                autofocus
+              />
+            </div>
+            <div class="mb-2 flex justify-center">
+              <input type="checkbox" placeholder="checkbox" />
+              <p class="m-2">You agree to our friendly <a class="underline" href="#">privacy policy</a>.</p>
+            </div>
+            <div class="mb-10">
+              <a href="">
+                <button
+                  class="rounded-xl px-16 py-4 bg-purple-500 text-white font-bold hover:bg-amber-100"
+                  type="submit"
+                >
+                  PROCEED TO THE PAYMENT
+                </button>
+              </a>
+            </div>
+            <div class="mb-5">
+              <a href="">
+                <button
+                  class="rounded-xl px-22 py-4 bg-white text-black font-bold hover:bg-amber-100"
+                  type="submit"
+                >
+                  Sign in with Google
+                </button>
+              </a>
+            </div>
+            <div class="mb-5">
+              <a href="">
+                <button
+                  class="rounded-xl px-19 py-4 bg-blue-500 text-white font-bold hover:bg-amber-100"
+                  type="submit"
+                >
+                  Sign in with Facebook
+                </button>
+              </a>
+            </div>
+            <div class="mb-2">
+              <a href="">
+                <button
+                  class="rounded-xl px-23 py-4 bg-black text-white font-bold hover:bg-amber-100"
+                  type="submit"
+                >
+                  Sign in with Apple
+                </button>
+              </a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

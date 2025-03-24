@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Sigmar&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --font-family: "Plus Jakarta Sans", sans-serif; 
+    
+
+    }
+  }
+  @theme {
+    --color-gray-50: oklch(0.984 0.003 247.858);
+    --color-gray-100: oklch(0.968 0.007 247.896);
+    --color-gray-200: oklch(0.929 0.013 255.508);
+    --color-gray-300: oklch(0.869 0.022 252.894);
+    --color-gray-400: oklch(0.704 0.04 256.788);
+    --color-gray-500: oklch(0.554 0.046 257.417);
+    --color-gray-600: oklch(0.446 0.043 257.281);
+    --color-gray-700: oklch(0.372 0.044 257.287);
+    --color-gray-800: oklch(0.279 0.041 260.031);
+    --color-gray-900: oklch(0.208 0.042 265.755);
+    --color-gray-950: oklch(0.129 0.042 264.695);
+  }
+@layer components{
+  .card{
+    @apply
+    bg-white text-black
+    w-72 min-h-[10rem]
+    shadow-lg rounded-md overflow-hidden
+  }
+  .product-title{
+    @apply
+    font-semibold text-xl
+    overflow-ellipsis overflow-hidden whitespace-nowrap
+  }
+  .price-product{
+    @apply
+    font-semibold text-3xl 
+  
+  }
+  .button-primary{
+    @apply
+    bg-green-400 hover:bg-black
+    px-15 py-2 mb-1 rounded-md text-white font-medium tracking-wider transition
+
+  }
+}
+
+
+
+  body{
+    @apply font-light bg-black h-screen text-white font-family
+  }
+.nav-link{
+    @apply hover:text-black hover:border-2 rounded-full hover:bg-[#82C113] hover:px-3
+}
+.button-nav{
+    @apply bg-black border-1 text-white border-[#82C113] py-4 px-10  text-black rounded-full
+
+}
+.button-nav:hover{
+   @apply bg-[#82C113] border-white text-black  cursor-pointer
+}
+placeholder-{}
+h1{
+  @apply text-4xl tracking-wider
+}
+h2{
+  @apply text-2xl
+}
+
